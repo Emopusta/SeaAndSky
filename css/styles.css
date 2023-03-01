@@ -152,7 +152,7 @@ body {
 }
 
 
-@media (max-width: 1460px) {
+@media (max-width: 1200px) {
   .mannequin{
     width: 50%;
     position: static;
