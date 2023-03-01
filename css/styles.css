@@ -121,9 +121,10 @@ body {
 
 
 .contact-us-button-cta{
-  display: block;
-  width: 150px;
-  margin: 30px auto;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 2rem;
 }
 
 .contact-us-button-cta a{
@@ -184,9 +185,10 @@ body {
   .medium-middle-centered-header{
     font-size: 4rem;
   }
-  .contact-us-button-cta{
-    height: 30%;
-    width: 30%;
+  .btn{
+    padding: 2rem 4rem;
+    font-size: 3rem;
+
   }
 
 }
