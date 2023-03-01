@@ -1,0 +1,168 @@
+body {
+    font-family: 'Tilt Warp', cursive, sans-serif;
+}
+
+.row{
+    margin: 0px;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Navbar Section  */
+
+#navbar {
+  padding: 3% 15% 5%;
+  background-color: #85CDFD;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+/* Title Section */
+#title {
+  background-color: #85CDFD;
+  padding-bottom: 10%;
+  margin: 0px;
+}
+.title-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 2rem;
+    
+  }
+.title-button a{
+  text-decoration: none;
+  color: white;
+}
+
+.mannequin {
+  width: 50%;
+  position: relative;
+  top: 120px;
+  transform: rotate(10deg);
+}
+
+/* Header Section */
+
+.big-header {
+  font-size: 4.2rem;
+  size: 5rem;
+  line-height: 1.5;
+  color: white;
+  padding: 7% 15%;
+}
+
+.medium-middle-centered-header{
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+
+/* Feature Section */
+#features{
+    background-color: #DEFCF9;
+    
+}
+
+.feature-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+.feature-box p {
+    color: gray;
+}
+
+.feature-title{
+    margin-top: 10px;
+}
+
+/* Testimonial Section */
+
+/* #testimonials{
+    background-color: #85CDFD;
+    padding: 7% 15%;
+} */
+
+/* Pricing Section */
+#pricing{
+  background-color: #3C84AB;
+}
+
+.card{
+  margin: 20px auto;
+}
+
+.card-body-header{
+  text-align: center;
+}
+
+.card-body-pricing-header{
+  text-align: center;
+  color: darkgray;
+}
+
+/* CTA Section */
+
+#cta{
+  background-color: #DEFCF9;
+}
+
+.contact-us-button-cta{
+  display: block;
+  width: 150px;
+  margin: 30px auto;
+}
+
+.contact-us-button-cta a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Footer Section */
+
+#footer{
+  background-color: white;
+  text-align: center;
+  margin: 2% 15%;
+}
+
+#footer a{
+  margin: 0px 20px;
+  color: black;
+  font-size: 2rem;
+}
+
+#footer p{
+  color: #8f8f8f;
+  font-size: 0.7rem;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 1460px) {
+  .mannequin{
+    width: 50%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+.soon{
+  margin-top: 20px;
+  text-align: center;
+}

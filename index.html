@@ -1,20 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    
+  <head>
+    <meta charset="UTF-8" />
+
     <title>Sea&Sky</title>
-</head>
-<body>
-    
-    <section id="navbar"></section>
-    <section id="title"></section>
-    <section id="features"></section>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script
+      src="https://kit.fontawesome.com/039680620d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Sea&Sky</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-lg-5">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Bize ulaşın</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Fiyatlar</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#cta">Download</a>
+            </li> -->
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- Title Section -->
+    <section id="title">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-header">
+            Kaliteli ve rahat kumaşlardan oluşan kapşonlularımıza göz atın.
+          </h1>
+          <button type="button" class="btn btn-dark btn-lg title-button">
+            <a href="#pricing">Göz at!</a>
+          </button>
+        </div>
+        <div class="col-lg-6">
+          <img
+            class="mannequin"
+            src="/images/manken.jpeg"
+            alt="title mannequin photo"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4 col-md-12 col-sm-12">
+            <img class="feature-image" src="./images/dikis.jpeg" alt="dikis" />
+            <h3 class="feature-title">Sağlam dikişler.</h3>
+            <p>Özenle birleştirilen kumaşlar ancak makasla ayrılabilir.</p>
+          </div>
+          <div class="feature-box col-lg-4 col-md-12 col-sm-12">
+            <img class="feature-image" src="/images/kumas.jpeg" alt="kumas" />
+            <h3 class="feature-title">Kaliteli kumaş.</h3>
+            <p>
+              İçi ve dışı farklı tasarlanan kapşonlu sıcak tutma özelliği
+              gösterir.
+            </p>
+          </div>
+          <div class="feature-box col-lg-4 col-md-12 col-sm-12">
+            <img
+              class="feature-image"
+              src="/images/serit.jpeg"
+              alt="kumas serit"
+            />
+            <h3 class="feature-title">Ayarlı şeritler.</h3>
+            <p>
+              Önceden ayarlanan şeritler sayesinde kapşonlular kolunuza ve
+              belinize düzgünce durmaktadır.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="testimonials"></section>
     <section id="press"></section>
-    <section id="pricing"></section>
-    <section id="cta"></section>
-    <footer id="footer"></footer>
 
-</body>
+    <!-- Pricing Section -->
+    <section id="pricing">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card" style="width: 18rem">
+              <img
+                src="images/greenMnqn.jpeg"
+                class="card-img-top"
+                alt="green top"
+              />
+              <div class="card-body">
+                <h3 class="card-body-header">Yeşil</h3>
+                <h4 class="card-body-pricing-header">450 TL</h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card" style="width: 18rem">
+              <img
+                src="images/blueMnqn.jpeg"
+                class="card-img-top"
+                alt="green top"
+              />
+              <div class="card-body">
+                <h3 class="card-body-header">Lacivert</h3>
+                <h4 class="card-body-pricing-header">450 TL</h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="card" style="width: 18rem">
+              <img
+                src="images/redMnqn.jpeg"
+                class="card-img-top"
+                alt="green top"
+              />
+              <div class="card-body">
+                <h3 class="card-body-header">Kırmızı</h3>
+                <h4 class="card-body-pricing-header">450 TL</h4>
+                <p class="card-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="soon">
+          <button type="button" class="btn btn-secondary" disabled>Daha fazlası</button>
+          <p>Yakında!!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cta Section -->
+    <section id="cta">
+      <div class="container-fluid">
+        <div class="cta-content">
+          <h3 class="medium-middle-centered-header">
+            Size en uygun renkli kaliteli kapşonlunuzu bugün alın.
+          </h3>
+          <button type="button" class="btn btn-dark btn-lg contact-us-button-cta">
+            <a href="https://www.instagram.com/seaandskyofficial_/">Bize ulaşın</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <a href="https://twitter.com/home?lang=tr"
+          ><span class="fa-brands fa-twitter"></span
+        ></a>
+        <a href="https://www.instagram.com/seaandskyofficial_/"
+          ><span class="fa-brands fa-instagram"></span
+        ></a>
+        <p>© Copyright SeaAndSky, 2023</p>
+      </div>
+    </footer>
+  </body>
 </html>
