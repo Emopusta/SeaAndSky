@@ -119,6 +119,7 @@ body {
   background-color: #DEFCF9;
 }
 
+
 .contact-us-button-cta{
   display: block;
   width: 150px;
@@ -160,6 +161,34 @@ body {
   #title{
     text-align: center;
   }
+
+  .feature-image{
+    height: 500px;
+    width: 500px;
+  }
+
+  .feature-title{
+    font-size: 5rem;
+  }
+  .feature-box p{
+    font-size: 3rem;
+  }
+  
+  .card-body-header{
+    font-size: 4rem;
+  }
+  .card-body-pricing-header{
+    font-size: 3rem;
+  }
+
+  .medium-middle-centered-header{
+    font-size: 4rem;
+  }
+  .contact-us-button-cta{
+    height: 30%;
+    width: 30%;
+  }
+
 }
 
 .soon{
